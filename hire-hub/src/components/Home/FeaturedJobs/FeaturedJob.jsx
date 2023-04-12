@@ -20,8 +20,8 @@ const FeaturedJob = () => {
         Featured Job
       </h1>
       <p className="text-gray-700 text-center py-3">
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
+      There have thousands of job opportunities with all the information you
+        need. Its your turn for future goal.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
         {job.slice(0, showAll ? 8 : 4).map((job) => (

@@ -8,11 +8,11 @@ const CategoryList = () => {
   return (
     <div className="py-14">
       <h1 className="text-center font-semibold text-3xl text-gray-800">
-        Job Category List
+        Job List
       </h1>
       <p className="text-center py-5 text-gray-700">
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
+        There have thousands of job opportunities with all the information you
+        need. Its your turn for future goal.
       </p>
       <div className="card-container grid-cols-2 grid lg:grid-cols-4 gap-3 font-semibold">
         {categories?.map((pd, idx) => (

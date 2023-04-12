@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-import background from "../../assets/All Images/P3OLGJ1 copy 1.png";
+import background from "../../assets/All Images/Zubaer-Hossain.jpg";
 import CategoryList from "./CategoryList/CategoryList";
 import FeaturedJob from "./FeaturedJobs/FeaturedJob";
 import { useLoaderData } from "react-router-dom";
@@ -12,11 +12,11 @@ const Home = () => {
           <div className="lg:w-[570px] space-y-2 lg:space-y-6">
             <h1 className=" lg:text-5xl text-3xl  text-gray-800 font-semibold leading-tight">
               One Step Closer To Your{" "}
-              <span className="text-indigo-500">Dream Job</span>
+              <span className="text-indigo-500">Future Job</span>
             </h1>
             <p className="text-gray-700">
-              Explore thousands of job opportunities with all the information
-              you need. Its your future. Come find it. Manage all your job
+            There have thousands of job opportunities with all the information you
+             need. Its your turn for future goal,Come find it. Manage all your job
               application from start to finish.
             </p>
             <button className="btn-primary">Get Started</button>

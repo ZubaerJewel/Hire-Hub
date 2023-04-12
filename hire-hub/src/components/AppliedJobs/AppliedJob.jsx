@@ -50,7 +50,7 @@ const AppliedJob = () => {
         <select
           className="bg-gray-200 p-2 rounded-md outline-none border-none"
           onChange={handleFilter}>
-          <option disabled>Select Job Type</option>
+          <option disabled>Job Type</option>
           <option>All</option>
           <option>Onside</option>
           <option>Remote</option>

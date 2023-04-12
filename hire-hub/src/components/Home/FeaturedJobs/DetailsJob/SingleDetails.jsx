@@ -19,11 +19,9 @@ const SingleDetails = () => {
     fetchData();
   }, []);
 
-  // handle apply now
   const handleApply = (id) => {
     addToDb(id);
   };
-  // const allData = useContext(JobDataContext);
   const {
     id,
     description,
